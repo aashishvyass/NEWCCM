@@ -22,13 +22,13 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="F:/MY DOWNLOADS/testlink-api-client-2.0/testlink-api-client-20091130/lib/commons-logging-1.1.jar"/>
-	<classpathentry kind="lib" path="F:/MY DOWNLOADS/testlink-api-client-2.0/testlink-api-client-20091130/lib/junit.jar"/>
-	<classpathentry kind="lib" path="F:/MY DOWNLOADS/testlink-api-client-2.0/testlink-api-client-20091130/lib/ws-commons-util-1.0.2.jar"/>
-	<classpathentry kind="lib" path="F:/MY DOWNLOADS/testlink-api-client-2.0/testlink-api-client-20091130/lib/xmlrpc-client-3.1.jar"/>
-	<classpathentry kind="lib" path="F:/MY DOWNLOADS/testlink-api-client-2.0/testlink-api-client-20091130/lib/xmlrpc-client-3.1-sources.jar"/>
-	<classpathentry kind="lib" path="F:/MY DOWNLOADS/testlink-api-client-2.0/testlink-api-client-20091130/lib/xmlrpc-common-3.1.jar"/>
-	<classpathentry kind="lib" path="F:/MY DOWNLOADS/testlink-api-client-2.0/testlink-api-client-20091130/lib/xmlrpc-common-3.1-sources.jar"/>
-	<classpathentry kind="lib" path="F:/MY DOWNLOADS/testlink-api-client-2.0/testlink-api-client-20091130/testlink-api-client-2.0.jar"/>
+	<classpathentry kind="lib" path="Resources/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="Resources/junit.jar"/>
+	<classpathentry kind="lib" path="Resources/testlink-api-client-2.0.jar"/>
+	<classpathentry kind="lib" path="Resources/ws-commons-util-1.0.2.jar"/>
+	<classpathentry kind="lib" path="Resources/xmlrpc-client-3.1-sources.jar"/>
+	<classpathentry kind="lib" path="Resources/xmlrpc-client-3.1.jar"/>
+	<classpathentry kind="lib" path="Resources/xmlrpc-common-3.1-sources.jar"/>
+	<classpathentry kind="lib" path="Resources/xmlrpc-common-3.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
