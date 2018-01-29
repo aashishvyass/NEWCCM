@@ -118,7 +118,6 @@ throw (e);
 
 	{
 		try {
-
 			RequestSpecification request = RestAssured.given();
 
 			JSONObject requestParams = new JSONObject();
