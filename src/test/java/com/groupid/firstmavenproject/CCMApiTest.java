@@ -54,7 +54,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Brand Type API body  : " + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-15", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-			
+			throw (e);
 		}
 	}
 
@@ -82,7 +82,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Get Country API body: " + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-1", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -109,7 +109,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Category type: " + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-14", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+throw (e);
 		}
 	}
 
@@ -146,7 +146,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Submit Feedback: " + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-22", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -191,7 +191,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("registerUser : " + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-2", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 
 	}
@@ -241,7 +241,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Loging API : " + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-3", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -284,7 +284,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("My Reward API failed with body: " + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-25", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -318,7 +318,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Logout API failed with body: " + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-4", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -349,7 +349,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Update device detail API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-5", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -381,7 +381,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Update device detail API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-6", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -414,7 +414,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Update device detail API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-10",  e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -461,7 +461,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Update Profile API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-11", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -498,7 +498,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Change Password API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-12", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -528,6 +528,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Send verification link API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-13", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
+			throw (e);
 		}
 	}
 
@@ -603,6 +604,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Product list API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-16", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
+			throw (e);		
 		}
 
 	}
@@ -636,7 +638,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Product image API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-17", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -664,7 +666,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Basic Pages API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-20", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -693,7 +695,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Get Feedback API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-21", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -722,7 +724,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Gift Detail API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-25", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -751,7 +753,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("My Point API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-26", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -779,7 +781,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("My Gift API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-28", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 
 	}
@@ -809,7 +811,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Advertisements detail API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-35", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 
 	}
@@ -839,7 +841,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Advertisements detail API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-37",e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 
 	}
@@ -914,7 +916,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Promotion list API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-24", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 
 	}
@@ -988,7 +990,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Promotion product list  API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-16", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 
 	}
@@ -1062,7 +1064,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("User Point  API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-27", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -1136,7 +1138,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("User Point  API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-29", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 
 	}
@@ -1210,7 +1212,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Product Store API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-18", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 
 	}
@@ -1259,7 +1261,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Advertisement get product API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-31", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -1294,7 +1296,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Random advertisement API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-30", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 	}
 
@@ -1367,7 +1369,7 @@ public class CCMApiTest {
 			String responseBody = response.getBody().asString();
 			System.out.println("Advertisement list API failed with body:" + responseBody);
 			TestLinkIntegration.updateResult("CCMAPI-34", e.getMessage(), TestLinkAPIResults.TEST_FAILED);
-
+			throw (e);
 		}
 
 	}
