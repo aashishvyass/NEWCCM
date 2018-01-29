@@ -122,7 +122,7 @@ throw (e);
 			RequestSpecification request = RestAssured.given();
 
 			JSONObject requestParams = new JSONObject();
-			requestParams.put("feedbackTypeId", "2");
+			requestParams.put("feedbackTypeId", "");
 			requestParams.put("email", "anil.anjana+994@ranosys.com");
 			requestParams.put("description", "test 4");
 
