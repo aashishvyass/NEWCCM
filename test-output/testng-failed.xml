@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
-      <class name="com.groupid.firstmavenproject.CCM_Backend">
+      <class name="com.groupid.firstmavenproject.CCMApiTest">
         <methods>
-          <include name="deleteadvertisement"/>
-          <include name="addpage"/>
-          <include name="backendURI"/>
-          <include name="addadvertisement"/>
+          <include name="advertisementsdelete"/>
+          <include name="baseUrl"/>
+          <include name="updatedevicedetails"/>
+          <include name="changepassword"/>
+          <include name="advertisementlist"/>
+          <include name="registerUser"/>
+          <include name="submitFeedback"/>
+          <include name="updateprofile"/>
+          <include name="randomadvertisement"/>
+          <include name="productimage"/>
+          <include name="advertisementsdetail"/>
         </methods>
-      </class> <!-- com.groupid.firstmavenproject.CCM_Backend -->
+      </class> <!-- com.groupid.firstmavenproject.CCMApiTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
